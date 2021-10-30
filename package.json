@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "name": "safasf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "start" : "http-server -a localhost -p 3000 -P http://localhost:3000? -c-1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.0.0",
+    "lit-html": "^2.0.1",
+    "node-fetch": "^3.0.0",
+    "page": "^1.11.6"
+  }
+}

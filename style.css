@@ -1,0 +1,141 @@
+
+/* Main Page CSS */
+.site-wrapper {
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 9% 10px 9%;
+}
+.list-of-launches {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 5px;
+    flex-basis: 30%;
+    margin: 15px;
+    height: 430px;
+    text-decoration: none;
+    border-top: 1px solid rgb(247, 247, 247);
+    border-bottom: 1px solid rgb(145, 145, 145) ;
+}
+a:any-link{
+    color:black;
+    outline: none;
+}
+.img {
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+}
+.card-wrapper {
+    display: flex;
+    align-items: center;
+}
+.title-name {
+    height: 10%;
+    font-size: 20px;
+    font-weight:600 ;
+    margin: 0;
+    padding: 0;
+}
+.description {
+    font-size:14px;
+    font-weight: 100;
+    color:gray;
+    margin: 0;
+    padding: 0;
+}
+.mission-name {
+    margin-top: 20px;
+    flex-grow: 1;
+    max-height: 60px;
+}
+.big-patch-photo{
+    width: 100%;
+    min-height: 280px;
+    margin-bottom: 20px;
+    max-height: 280px; 
+    margin-top: 20px;
+}
+
+/* CSS for the single page */
+.details-page-wrapper{
+    display: flex;
+    position: relative;
+    bottom: 50px;
+    justify-content: space-evenly;
+    height: 100%;
+}
+.card-details {
+    display: flex;
+    flex-flow: column wrap;
+    width: 50% ;
+    height: 100%;
+    align-items: center;
+}
+.card-title {
+    display: flex;
+    margin-top: 30px;
+}
+.mission-name-detail-page {
+    min-width: 250px;   
+}
+.back-to-main {
+    background: none;
+    border: none;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.card-content {
+    display: flex;
+    flex-flow: column;
+    width: 80%;
+    height: 70%;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 5px;
+    border-top: 1px solid rgb(247, 247, 247);
+    border-bottom: 1px solid rgb(145, 145, 145) ;
+    align-items: center;
+}
+.mission-text-content{
+    margin: 20px;
+}
+.img-card,.main-img {
+    width: 60%;
+    height: 300px;
+}
+.images-content-wrapper{
+    display: flex;
+    flex-flow: column wrap;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+}
+.main-img {
+    margin-top: 100px ;
+}
+.small-images-wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.rotation-images{
+    width: 80px;
+    height: 80px;
+}
+.arrow {
+    background: none;
+    border: none;
+    font-size: 80px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.arrow:hover,.back-to-main:hover{
+    cursor:pointer;
+}
+.arrow:active,.back-to-main:active{
+    cursor:grabbing;
+}
